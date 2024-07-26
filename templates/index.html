@@ -102,8 +102,21 @@
         {% if button_python%}
           <div class="skills__project project" id="project">
               <img class="project__img" src="../static/img/python-project.png" alt="project" width="500">
-              <a class="project__link" href="https://www.google.com.pe/?hl=es">Abierto en GitHub</a>
+              <a class="project__link" href="https://hub.kodland.org/project/191205">Abierto en Kodland</a>
           </div>
+        {% elif button_discord%}
+        <div class="skills__project project" id="project">
+          <img class="project__img" src="../static/img/discord.png" alt="project" width="500">
+          <a class="project__link" href="https://github.com/sebastianangulod/tarea1.git">Abierto en Github</a>
+      </div>
+        {% elif button_html%}
+        <div class="skills__project project" id="project">
+          <img class="project__img" src="../static/img/html.png" alt="project" width="500">
+          <a class="project__link" href="https://github.com/sebastianangulod/tarea1.git"></a>
+        {% else %}
+        <div class="skills__project project" id="project">
+          <img class="project__img" src="../static/img/db.webp" alt="project" width="500">
+          <a class="project__link" href="https://github.com/sebastianangulod/S1_project"></a>
         {% endif %}
       </section>
       <!-- Formulario de contacto -->
